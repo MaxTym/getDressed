@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+ <head>
+ <meta charset = "UTF-8">
+ <link rel = "stylesheet" href = "index.css" />
+ </head>
+<body>
+<form>
+	<label for="input">Enter space separated list of numbers (1=hat, 2=pants, 3=shirt, 4=shoes, 5=socks, 6=leave)</label>
+	<input type="text" id="input" required pattern="[1-6\s]*">
+	<button type="submit">Submit</button>
+</form>
+
+<label for="result">Result</label>
+<input type="text" id="result" readonly>
+
+<script src="index.js">
+</script>
+</body>
+</html>
